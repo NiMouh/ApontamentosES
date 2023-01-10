@@ -144,10 +144,65 @@ desenvolvimento dos sistemas mais recentes, e podem também ser dependentes de '
 
 A substituição destes sistemas pode ser arriscada em nível de segurança e custosa para os negócios continuarem a
 utilizá-los e:
+
 - Usam linguagens de programação quase obsoletas;
 - Têm uma documentação inadequada;
 - A estrutura do sistema é degradada;
 
-(*PAREI NO SLIDE 28*)
+## Avaliação do valor de negócio
 
+Devem ser tomados em conta os seguintes fatores:
+
+- O cliente final do sistema;
+- Os clientes do negócio;
+- Gestores da tecnologia;
+- Gestores de negócio;
+
+Problemas na avaliação do valor de negócio:
+
+- Caso o sistema é usado apenas ocasionalmente ou por um número baixo de pessoas, então possivelmente tem um valor de
+  negócio baixo;
+- Um sistema pode ter um valor baixo de negócio caso force o uso de processos de negócio ineficientes;
+- Caso o sistema não for fiável e os problemas afetarem diretamente os clientes do negócio, então o sistema tem um valor
+  de negócio baixo;
+
+Existem três modos de avaliação do valor de negócio:
+
+- Avaliação do valor de negócio do sistema;
+- Avaliação do ambiente de negócio;
+- Avaliação da aplicação do sistema;
+
+## Manutenção de sistemas
+
+Manutenção é o ato de modificar o programa após ele já tenha começado a ser utilizado. As mudanças são implementadas
+modificando componentes existentes e/ou adicionando novos ao sistema.
+
+### Tipos de manutenção
+
+Temos três tipos de manutenção:
+
+- Manutenção de avaria;
+- Manutenção de adaptação;
+- Adicionação de uma funcionalidade ou modificação;
+
+Nota: Normalemente os custos da manutenção são maiores que os custos do desenvolvimento.
+
+## Reengenharia de Software
+
+Consiste na restruturaçào e reorganização de um sistema de ‘software’ existente, para melhorar a sua qualidade e/ou a
+sua manutenção sem modificar a sua funcionabilidade.
+
+### Vantagens
+
+- Risco reduzido;
+- Custo reduzido;
+
+## Más práticas no código
+
+Exemplos de más práticas:
+
+- Código duplicado;
+- Métodos muito longos;
+- Switch case com muitos casos;
+- Algomeração de dados;
 
