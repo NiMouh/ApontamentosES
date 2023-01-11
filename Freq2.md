@@ -127,7 +127,7 @@ Onde a equipa de desenvolvimento usou uma abordagem agil, mas a equipa de evolu�
 ## Sistemas herdados
 
 Sistemas herdados baseam-se em sistemas antigos desenvolvidos numa tecnologia que não são mais usadas no
-desenvolvimento dos sistemas mais recentes, e podem também ser dependentes de 'hardware' antigo.
+desenvolvimento dos mais recentes, e podem também ser dependentes de 'hardware' antigo.
 
 ### Componentes de sistemas herdades
 
@@ -250,7 +250,7 @@ Beneficios de 'code management' distribuído:
 
 ## Integração de sistema
 
-Integração de sistema (ou 'System integration') é o processo de combinar componentes de software em um sistema maior.
+Integração de sistema (ou 'System integration') é o processo de combinar componentes de 'software' num sistema maior.
 
 Algumas destas atividades são:
 
