@@ -29,7 +29,7 @@ Existem quatro tipos comuns de teste:
 
 ![Exemplo de testagem](Imagens/testagem-1.png)
 
-** Fig.1: Diagrama de automatação de testagem **
+*Fig.1: Diagrama de automatação de testagem*
 
 Normalmente organiza-se a automatação de testes em três partes:
 
@@ -80,7 +80,7 @@ Caso sejam encontrados erros, será responsabilidade do **desenvolvedor** resolv
 
 ![Exemplo de revisão de código](Imagens/testagem-2.png)
 
-** Fig.2: Diagrama de revisão de código **
+*Fig.2: Diagrama de revisão de código*
 
 # TEÓRICA 10: Evolução de Software
 
@@ -205,4 +205,92 @@ Exemplos de más práticas:
 - Métodos muito longos;
 - Switch case com muitos casos;
 - Algomeração de dados;
+
+# Teórica 11: DevOps
+
+**DevOps** são práticas que visam a colaboração entre as equipas de **desenvolvimento** e de **operações**, para que o
+‘software’
+seja entregue e operacionalizado de modo mais rápido e eficiente.
+
+Existem três fatores que levam para o desenvolvimento e adoção de DevOps:
+
+- Melhoria da comunicação e colaboração entre equipas de desenvolvimento e operações, permitindo que os problemas sejam
+  detetados e resolvidos rapidamente.
+- Automatização de tarefas repetitivas, como implantações, testes e monitoramento, para aumentar a eficiência e diminuir
+  erros humanos.
+- Mudanças na mentalidade e cultura da empresa, para valorizar a experimentação, a inovação e a melhoria contínua.
+
+Benefícios da adoção de DevOps:
+
+- Entrega de ‘software’ mais rápida;
+- Risco reduzido;
+- Reparação mais rápida;
+- Equipas mais produtivas;
+
+## Gestão de código
+
+'Code management' é um conjunto de práticas suportadas por 'software' usadas para gerir a base de código em evolução. É
+necessária esta gestão para asegurar que futuras mudanças feitas por diferentes desenvolvedores não interferem entre si.
+
+![](Imagens/dev-ops-1.png)
+
+*Fig.1: Codemanagement e DevOps*
+
+'Code management' fornece um conjunto de ferramentas para:
+
+- Melhor controlo de versões;
+- Desenvolvimento paralelo entre os envolvidos;
+- Recuperação de versões antigas;
+
+Beneficios de 'code management' distribuído:
+
+- Resiliência;
+- Velocidade;
+- Flexibilidade;
+
+## Integração de sistema
+
+Integração de sistema (ou 'System integration') é o processo de combinar componentes de software em um sistema maior.
+
+Algumas destas atividades são:
+
+- Linkagem de bibliotecas;
+- Verificar se serviços externos usados encontram-se operacionais;
+- Configuração da base de dados com a estrutura apropriada;
+
+### Integração continua
+
+Signfica que a versão integrada no sistema é criada e testada todavez que uma mudança é mandada para o repositorio
+partilhado do sistema.
+
+### 'Breaking the build'
+
+Acontece quando uma mudança introduzida no repositório partilhado no sistema quebra o mesmo.
+
+## 'Deployment pipeline'
+
+A 'deployment pipeline' é um conjunto de etapas que o 'software' passa antes de ser entregue ao cliente. Cada etapa é
+executada automaticamente e o 'software' só é entregue ao cliente se todas as etapas forem bem sucedidas.
+
+Beneficios:
+
+- Custos reduzidos;
+- Resolução de problemas mais rápida;
+- Opinião do cliente mais rápida;
+
+## Código por infrastrutura
+
+Visa invés de atualizar o ‘software’ nos servidores da empresa manualmente, fazer um processo de modo automático
+usando um modelo de infrastrutura escrito numa linguagem num formato que possa ser processado pelo computador.
+
+![](Imagens/dev-ops-2.png)
+
+*Fig.2: Código por infrastrutura*
+
+Beneficios:
+
+- Caso seja mudado um serviço, o código é alterado e o mesmo é aplicado automatica e rapidamente em todos os servidores;
+- O ambiente de teste é o mesmo que o ambiente de produção;
+- Baixo risco quando mudanças de infrastrutura são implementadas;
+- Os custos da gestão do sistema são reduzidos;
 
