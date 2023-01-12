@@ -165,6 +165,14 @@ Alguns exemplos são:
 - ‘Cookies’ de acesso são revelados para um potencial atacante;
 - Chaves de encriptação divulgadas para um potencial atacante;
 
+#### Perguntas de outros anos
+```md
+- Explique porque os Testes de Software apenas podem detetara presença de erros, não a sua ausência.
+
+A realização de um teste exaustivo de um programa, em que todos os possíveis inputs são testados é praticamente impossível ou irrealista.
+Isto significa que quando não são detetados erros não significa que estes não existem, apenas que não foram revelados pelos inputs testados.
+Pelo contrário; a existência de erros, será a manifestação da existência de defeitos no programa.
+```
 ## Revisões de código
 
 Revisões de código envolvem uma ou mais pessoas que analisam o código de um programa para encontrar possiveís problemas.
