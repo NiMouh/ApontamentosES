@@ -1,3 +1,95 @@
+# TEÓRICA 6: Arquitetura
+
+O desenvolvimento da arquitetura de um sistema é importante, pois permite minimizar a sua complexidade e as suas
+vulnerabilidades na hora da implementação.
+
+## Arquiteturas de segurança centralizadas
+
+Tem como beneficios:
+
+- Facilidade de projeção e construção;
+- A informação protegida pode ser acedida de um modo mais eficiente e menos custoso;
+
+Desvantagens:
+
+- Caso a segurança seja violada, todo o sistema fica comprometido;
+
+![Arquitetura centralizada](Imagens/arquitetura-1.png)
+
+*Fig.1 Arquitetura centralizada*
+
+## Arquiteturas de segurança distribuída
+
+Tem como beneficios:
+
+- Caso a segurança seja violada numa localização, os restantes pontos do sistema não são afetados;
+
+Desvantagens:
+
+- A informação protegida pode ser acedida de um modo menos eficiente e mais custoso;
+
+![Arquitetura distribuída](Imagens/arquitetura-2.png)
+
+*Fig.2 Arquitetura distribuída*
+
+## Segurança vs Usabilidade
+
+Podemos atingir um nivel de segurança bom projetando uma proteção no nosso sistema com um conjunto de **camadas**. Cada
+uma dessas camadas envolve um nível de autenticação o que, por outro lado, afetaria a usabilidade da aplicação, pois o
+utilizador final terá de passar por todas essas camadas de segurança.
+
+![Camadas de segurança](Imagens/arquitetura-3.png)
+
+*Fig.3 Camadas de segurança*
+
+De modo a ter um sistema com uma melhor usabilidade temos que:
+
+- Minimizar o número de camadas de segurança;
+- Minimizar o número de autenticações necessárias;
+
+## Exemplos de relações entre componentes:
+
+![Exemplos de relações entre componentes](Imagens/arquitetura-4.png)
+
+## Preocupações transversais
+
+Preocupações transversais são preocupações que são sistemicas, que afetam todo o sistema.
+
+![Preocupações transversais](Imagens/arquitetura-5.png)
+
+*Fig.4 Preocupações transversais*
+
+## Exemplo genérico de uma arquitetura de uma aplicação web-based
+
+![Exemplo genérico de uma arquitetura de uma aplicação web-based](Imagens/arquitetura-6.png)
+
+## Arquitetura cliente-servidor
+
+A funcionalidade do sistema é organizada por serviços, onde cada serviço é feita num servidor em separado. Os clientes
+são os utilizadores destes serviços e acedem aos servidores para os poderem utilizar.
+
+Vantagens:
+
+- Maior distributividade;
+- Maior escalabilidade;
+
+Desvantagens:
+
+- Maior complexidade;
+- Cada serviço torna-se mais suscetival a ataques e a falhas;
+- Desempenho torna-se imprevisivel;
+
+![Arquitetura cliente-servidor](Imagens/arquitetura-7.png)
+
+*Fig.5 Arquitetura cliente-servidor*
+
+## Base de dados
+
+Os 2 tipos de base de daos mais usados são:
+
+- Base de dados relacional, onde os dados são organizados em tabelas;
+- NoSQL, onde os dados são mais flexiveis sendo organizados por utilizador;
+
 # TEÓRICA 9: Testagem de Software
 
 Testagem de ‘software’ é o processo onde o programa nós executamos o programa com dados que simulam as entradas de um
